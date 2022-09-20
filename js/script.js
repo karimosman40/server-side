@@ -133,7 +133,7 @@ var swiper = new Swiper(".review-slider", {
 
 
 
-document.querySelector('.btn').onclick =()=>{
+document.querySelector('.add').onclick =()=>{
 dataLayer.push({ ecommerce: null }); 
 dataLayer.push({
   event: "add_to_cart",
