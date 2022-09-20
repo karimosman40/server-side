@@ -130,11 +130,8 @@ var swiper = new Swiper(".review-slider", {
 });
 
 
-
-
-
 document.querySelector('.add').onclick =()=>{
-dataLayer.push({ ecommerce: null }); 
+   dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   event: "add_to_cart",
   ecommerce: {
@@ -162,6 +159,9 @@ dataLayer.push({
     }
     ]
   }
-});
 }
+}
+
+
+
 
